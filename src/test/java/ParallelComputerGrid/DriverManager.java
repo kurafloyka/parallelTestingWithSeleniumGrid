@@ -1,3 +1,5 @@
+package ParallelComputerGrid;
+
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -21,6 +23,7 @@ public class DriverManager {
             caps = DesiredCapabilities.chrome();
         } else if (browser == "firefox") {
             caps = DesiredCapabilities.firefox();
+
         }
         caps.setPlatform(Platform.MAC);
 

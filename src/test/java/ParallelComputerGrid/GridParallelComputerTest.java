@@ -1,17 +1,8 @@
-import org.junit.After;
-import org.junit.Before;
+package ParallelComputerGrid;
+
 import org.junit.Test;
 import org.junit.experimental.ParallelComputer;
 import org.junit.runner.JUnitCore;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Platform;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
-
-import java.net.MalformedURLException;
-import java.net.URL;
 
 /**
  * Created by ONUR on 20.11.2016.
